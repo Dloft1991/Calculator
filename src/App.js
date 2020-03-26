@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Values from './components/keys';
 
 function App() {
   return (
-    <div className="App">
-      Hello Calculator
+    <div className="cal-pad">
+      <Values />
     </div>
   );
 }
