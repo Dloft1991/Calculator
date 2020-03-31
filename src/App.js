@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Values from './components/keys';
+import Keys from './components/keys';
+// import Values from './components/keys';
 
 function App() {
   return (
     <div className="cal-pad">
-      <Values />
+     <Keys />
     </div>
   );
 }
